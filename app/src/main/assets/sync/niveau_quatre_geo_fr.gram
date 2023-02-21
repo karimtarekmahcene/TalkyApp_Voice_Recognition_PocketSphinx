@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+         egypte |
+         angleterre |
+         mexique |
+         japon |
+         australie;
+
+public <cats> = <cat>+;

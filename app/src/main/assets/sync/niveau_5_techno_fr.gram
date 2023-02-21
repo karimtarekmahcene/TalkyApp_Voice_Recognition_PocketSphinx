@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+       montre|
+       souris|
+       clavier|
+       écran|
+       mixeur;
+
+public <cats> = <cat>+;

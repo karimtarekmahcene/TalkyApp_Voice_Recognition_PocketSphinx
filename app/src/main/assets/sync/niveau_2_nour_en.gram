@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+           salt |
+           tomato
+           onion |
+           olive|
+           bean;
+
+public <cats> = <cat>+;

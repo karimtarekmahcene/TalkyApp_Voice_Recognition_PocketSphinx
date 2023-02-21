@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+              doctor|
+              radio|
+              patient|
+              scanner|
+              drench;
+
+public <cats> = <cat>+;

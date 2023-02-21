@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+          âne|
+          renard|
+          poule|
+          serpent|
+          zèbre;
+
+public <cats> = <cat>+;

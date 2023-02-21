@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =       gants|
+              radiologues|
+              clinique|
+              blouse|
+              ampoule;
+
+
+
+public <cats> = <cat>+;

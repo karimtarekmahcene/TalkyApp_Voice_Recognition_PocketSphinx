@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =       suppo|
+              lunette|
+              injection|
+              fracture|
+              cachet;
+
+
+
+public <cats> = <cat>+;

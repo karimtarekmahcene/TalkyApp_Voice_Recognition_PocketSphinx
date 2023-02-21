@@ -1,0 +1,14 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+          banane |
+          oeuf |
+          farine |
+          fraise |
+          eau
+          ;
+
+public <cats> = <cat>+;

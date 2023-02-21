@@ -1,0 +1,14 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+          acteur|
+          film |
+          dessin |
+          comique |
+          réalisateur
+          ;
+
+public <cats> = <cat>+;

@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          BAQARATUN|
+          KHAROUF|
+          DAJAJATUN|
+          HISAN|
+          QITTA;
+
+public <cats> = <cat>+;

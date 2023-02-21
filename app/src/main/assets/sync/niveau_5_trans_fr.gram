@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+           péniche|
+           fourgon|
+           billet|
+           chauffeur|
+           hélicoptère;
+
+public <cats> = <cat>+;

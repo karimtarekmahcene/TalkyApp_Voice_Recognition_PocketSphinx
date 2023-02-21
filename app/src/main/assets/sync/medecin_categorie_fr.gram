@@ -1,0 +1,39 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =patient|
+       médecin|
+       radio|
+       médicament|
+       scanner|
+
+       dentiste|
+       opération|
+       hopital|
+       chirurgien|
+       pharmacie|
+
+       gants|
+       clinique|
+       blouse|
+       radiologues|
+       ampoule|
+
+       suppo|
+       lunette|
+       injection|
+       fracture|
+       cachet|
+
+       lentilles|
+       salle|
+       plâtre|
+       déchirure|
+       bureau
+
+       ;
+
+
+
+public <cats> = <cat>+;

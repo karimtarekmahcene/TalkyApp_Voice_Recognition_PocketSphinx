@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+           parachute|
+           trottinette|
+           carrosse|
+           zeppelin|
+           métro;
+
+public <cats> = <cat>+;

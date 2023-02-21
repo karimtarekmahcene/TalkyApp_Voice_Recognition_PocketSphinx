@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+chair|
+plate|
+cup|
+box|
+bathroom;
+
+public <cats> = <cat>+;

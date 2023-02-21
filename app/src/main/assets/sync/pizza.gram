@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = pizza  |
+          citron|
+          serpent;
+
+public <digits> = <digit>+;

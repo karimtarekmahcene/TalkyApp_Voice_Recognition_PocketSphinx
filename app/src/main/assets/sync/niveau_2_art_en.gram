@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+           musician|
+           museum|
+           cinema|
+           camera|
+           singer;
+
+public <cats> = <cat>+;

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.myapplication.login_activite"
+    android:background="#6D66CC">
+
+
+    <RelativeLayout
+        android:id="@+id/R1"
+        android:layout_width="match_parent"
+        android:layout_height="344dp">
+
+
+        <ImageView
+            android:layout_width="344dp"
+            android:layout_height="322dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/loginn" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layoutuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/ETlogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@layout/custom_input"
+            android:drawableStart="@layout/custom_person_icon"
+            android:drawableLeft="@layout/custom_person_icon"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="@font/baloo_thambi"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingLeft="@dimen/a10"
+            android:paddingEnd="12dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#B4C0B3D8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.554"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.56" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/invisble"
+        android:layout_below="@+id/layoutpass"
+        >
+
+        <EditText
+            android:id="@+id/ETpassinv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="1dp"
+            android:background="@layout/custom_input"
+            android:clickable="false"
+            android:drawableStart="@layout/custom_lock_icon"
+            android:drawableLeft="@layout/custom_lock_icon"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="@font/baloo_thambi"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingLeft="@dimen/a10"
+            android:paddingEnd="12dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#B4C0B3D8"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.554"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.56" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/layoutpass"
+        android:layout_below="@+id/layoutuser"
+        >
+
+        <EditText
+            android:id="@+id/ETpass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:background="@layout/custom_input"
+            android:drawableStart="@layout/custom_lock_icon"
+            android:drawableLeft="@layout/custom_lock_icon"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="@font/baloo_thambi"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingLeft="@dimen/a10"
+            android:paddingEnd="12dp"
+            android:password="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#B4C0B3D8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.554"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.56" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/R2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/invisble"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:background="@layout/custom_button"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="HI, TALKY!"
+            android:textColor="#6D66CC"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/creer_compte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ok"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="1dp"
+            android:background="#006D66CC"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="CREATE ACCOUNT"
+            android:textColor="#B4C0B3D8"
+            app:layout_constraintVertical_bias="1.0" />
+    </RelativeLayout>
+
+</RelativeLayout>

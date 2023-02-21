@@ -1,0 +1,14 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+          poivre|
+          ananas|
+          hamburger|
+          pomme_de_terre|
+          fromage
+          ;
+
+public <cats> = <cat>+;

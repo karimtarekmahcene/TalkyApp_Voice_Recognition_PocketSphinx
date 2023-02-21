@@ -1,0 +1,14 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+         argentine|
+         uruguay|
+         colombie|
+         islande|
+         costa_rica
+         ;
+
+public <cats> = <cat>+;

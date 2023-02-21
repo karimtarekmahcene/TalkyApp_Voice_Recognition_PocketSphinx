@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = un  |
+          deux   |
+          trois |
+          quatre |
+          cinq |
+          chien;
+
+public <digits> = <digit>+;

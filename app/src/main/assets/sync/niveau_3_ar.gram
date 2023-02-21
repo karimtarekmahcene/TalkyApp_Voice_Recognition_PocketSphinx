@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          ISTABL|
+          MADRASAH|
+          MANZYL|
+          MOUSTACHFA|
+          MOUSTAWSAF;
+
+public <cats> = <cat>+;

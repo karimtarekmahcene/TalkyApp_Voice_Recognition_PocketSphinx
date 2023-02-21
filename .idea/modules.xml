@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TALKY.FINAL.RELEASE.iml" filepath="$PROJECT_DIR$/.idea/modules/TALKY.FINAL.RELEASE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TALKY.FINAL.RELEASE.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TALKY.FINAL.RELEASE.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pocketsphinx-android-5prealpha-release/TALKY.FINAL.RELEASE.pocketsphinx-android-5prealpha-release.iml" filepath="$PROJECT_DIR$/.idea/modules/pocketsphinx-android-5prealpha-release/TALKY.FINAL.RELEASE.pocketsphinx-android-5prealpha-release.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+           but|
+           basket-ball|
+           club|
+           short|
+           soulier;
+
+public <cats> = <cat>+;

@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+       ciseaux|
+       caillou|
+       crayon|
+       bouteille|
+       verre;
+
+public <cats> = <cat>+;

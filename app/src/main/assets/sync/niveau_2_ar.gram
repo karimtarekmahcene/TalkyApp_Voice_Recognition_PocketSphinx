@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          BOURTOUQAL|
+          DAJAJATUN|
+          HALIB|
+          TOUFFAH|
+          LAYMOUN;
+
+public <cats> = <cat>+;

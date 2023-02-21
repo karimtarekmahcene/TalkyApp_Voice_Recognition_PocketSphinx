@@ -1,0 +1,8 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          MOUSTACHFA;
+
+public <cats> = <cat>+;

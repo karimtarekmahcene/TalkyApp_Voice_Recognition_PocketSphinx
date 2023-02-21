@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+           lemon|
+           rice|
+           grapes|
+           butter|
+           sugar;
+public <cats> = <cat>+;

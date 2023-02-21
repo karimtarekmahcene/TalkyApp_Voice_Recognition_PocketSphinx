@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+           hockey|
+           tennis|
+           golf|
+           ping-pong|
+           billard ;
+
+public <cats> = <cat>+;

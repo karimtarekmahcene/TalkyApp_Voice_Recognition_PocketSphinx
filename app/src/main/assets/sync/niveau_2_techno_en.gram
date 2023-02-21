@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+              printer|
+              stove|
+              receiver|
+              application|
+              screen;
+
+public <cats> = <cat>+;

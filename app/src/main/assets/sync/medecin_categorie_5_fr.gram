@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =       lentilles|
+              salle|
+              plâtre|
+              déchirure|
+              bureau;
+
+
+
+public <cats> = <cat>+;

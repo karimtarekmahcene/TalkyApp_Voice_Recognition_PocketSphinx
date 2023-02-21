@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+       cat|
+       dog|
+       lion|
+       horse|
+       cow;
+
+public <cats> = <cat>+;

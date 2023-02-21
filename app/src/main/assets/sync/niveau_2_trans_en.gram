@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+bike|
+motorbike|
+streetcar|
+airport|
+truck;
+public <cats> = <cat>+;

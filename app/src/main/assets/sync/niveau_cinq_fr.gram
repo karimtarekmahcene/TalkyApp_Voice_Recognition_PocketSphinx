@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+          loup|
+          paon|
+          panthère|
+          éléphant|
+          hippopotames;
+
+public <cats> = <cat>+;

@@ -1,0 +1,33 @@
+#JSGF V1.0;
+grammar cats;
+<cat> =
+          riz|
+          pain |
+          carotte |
+          orange |
+          pizza |
+
+          lait|
+          haricot|
+          olive|
+          sel|
+          tomate|
+
+          oignon|
+          poivre|
+          ananas|
+          hamburger|
+          pomme_de_terre|
+
+          fromage|
+          banane|
+          oeuf|
+          farine|
+          fraise|
+
+          eau|
+          citron|
+          sucre|
+          raisin|
+          beurre;
+public <cats> = <cat>+;

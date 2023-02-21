@@ -1,0 +1,8 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          AZRAQ;
+
+public <cats> = <cat>+;

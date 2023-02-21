@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =       dentiste|
+              opération|
+              hopital|
+              chirurgien|
+              pharmacie;
+
+
+
+public <cats> = <cat>+;

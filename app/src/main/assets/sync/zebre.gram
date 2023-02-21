@@ -1,0 +1,8 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+        zèbre;
+
+public <cats> = <cat>+;

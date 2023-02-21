@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          pain |
+          carotte |
+          orange |
+          pizza |
+          lait;
+
+public <cats> = <cat>+;

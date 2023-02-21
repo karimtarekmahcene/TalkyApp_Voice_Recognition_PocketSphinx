@@ -1,0 +1,36 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          cat|
+          dog|
+          lion|
+          horse|
+          cow|
+
+          sheep|
+          monkey|
+          tiger|
+          panda|
+          gazelle|
+
+          crocodile|
+          giraffe|
+          frog|
+          rabbit|
+          snail|
+
+          donkey|
+          fox|
+          kitchen|
+          snake|
+          zebra|
+
+          wolf|
+          peacock|
+          panther|
+          elephant|
+          hippopotamus;
+
+public <cats> = <cat>+;

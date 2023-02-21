@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+
+          grenouille |
+          lapin |
+          crocodile|
+          escargot|
+          girafe;
+
+public <cats> = <cat>+;

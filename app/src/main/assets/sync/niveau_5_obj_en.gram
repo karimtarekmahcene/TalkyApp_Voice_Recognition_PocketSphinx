@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+clock|
+rubber|
+ruler|
+lock|
+calculator;
+
+public <cats> = <cat>+;

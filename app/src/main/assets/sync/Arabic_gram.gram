@@ -1,0 +1,41 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          ABYAD|
+          AHMAR|
+          AKHDAR|
+          ASFAR|
+          AZRAQ|
+
+          AKHI|
+          OUKHTI|
+          &OUMI|
+          JADDATI|
+          JADI|
+
+          BAQARATUN|
+          KHAROUF|
+          DAJAJATUN|
+          HISAN|
+          QITTA|
+
+          BOURTOUQAL|
+          DAJAJATUN|
+          HALIB|
+          TOUFFAH|
+          LAYMOUN|
+
+
+          ISTABL|
+          MADRASAH|
+          MANZYL|
+          MOUSTACHFA|
+          MOUSTAWSAF;
+
+
+
+
+
+public <cats> = <cat>+;

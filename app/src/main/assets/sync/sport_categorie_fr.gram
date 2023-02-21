@@ -1,0 +1,39 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          ballon|
+          stade |
+          tribune |
+          joueur |
+          entraineur|
+
+
+           maillot|
+           baseball|
+           handball|
+           raquette|
+           volley-ball|
+
+           but|
+           basket-ball|
+           club|
+           short|
+           soulier|
+
+           gants|
+           sport|
+           courses|
+           victoire|
+           perte|
+
+           hockey|
+           tennis|
+           golf|
+           ping-pong|
+           billard ;
+
+
+
+public <cats> = <cat>+;

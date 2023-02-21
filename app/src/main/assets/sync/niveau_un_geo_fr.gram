@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          espagne|
+          algérie|
+          france|
+          canada|
+          italie
+          ;
+
+public <cats> = <cat>+;

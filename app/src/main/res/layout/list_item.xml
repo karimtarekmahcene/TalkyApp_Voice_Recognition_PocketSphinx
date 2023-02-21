@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    android:id="@+id/gogo"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#6D66CC"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    -
+
+    <RelativeLayout
+        android:id="@+id/itemlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:background="#807ad6"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="59dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_marginLeft="25dp"
+            android:textSize="20sp"
+            android:text="dorina"
+            android:fontFamily="@font/baloo_thambi" />
+
+        <TextView
+            android:id="@+id/txdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="284dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="desc" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="28dp"
+            app:srcCompat="@drawable/scoree" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

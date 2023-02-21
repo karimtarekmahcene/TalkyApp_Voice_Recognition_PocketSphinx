@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar cats;
+
+<cat> =
+          ballon|
+          stade |
+          tribune |
+          joueur |
+          entraineur;
+
+public <cats> = <cat>+;
